@@ -1,3 +1,37 @@
 
 Vim configuration and plugins
 ------------------------------------
+
+This setup has been tested on OS X and Ubuntu.
+
+Installation
+
+1. Clone this repository
+2. Run git submodule init && git submodlule update
+3. Setup command -t
+	a. go to vim/bundle/plugin-command-t/ruby/command-t
+	b. run 'ruby extconf.rb'
+	c. run 'make'
+
+4. Sym links
+	a. /vim => ~/.vim
+	b. /vimvrc => ~/.vimrc
+	c. /gvimrc => ~/.gvimrc (If using gvim/macvim)
+
+
+Requirements
+
+	- git
+	- ruby
+	- vim/gvim/macvim
+
+Plugins
+
+	- command-t: File Searching (<leader> t)
+	- nerdtree: File Brownsing (:NERDTree /some/path)
+
+
+Note: When setting up command-t on Ubuntu, you may need to install ruby1.8-dev when running extconf.rb.
+'sudo apt-get install ruby1.8dev'
+
+Based off of gavim - https://github.com/gaveen/gavim
