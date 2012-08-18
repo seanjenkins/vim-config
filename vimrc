@@ -7,6 +7,7 @@ set ignorecase
 set history=1000
 set undolevels=1000
 set wildignore=*.swp,*.pyc,*.db,*.git
+set hlsearch
 
 colorscheme wombat
 syntax on
