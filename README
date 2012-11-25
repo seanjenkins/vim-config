@@ -7,7 +7,7 @@ This setup has been tested on OS X and Ubuntu.
 Installation
 
 1. Clone this repository
-2. Run git submodule init && git submodlule update
+2. Run git submodule init && git submodule update
 3. Setup command -t
 	a. go to vim/bundle/plugin-command-t/ruby/command-t
 	b. run 'ruby extconf.rb'
