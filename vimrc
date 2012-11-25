@@ -8,6 +8,7 @@ set history=1000
 set undolevels=1000
 set wildignore=*.swp,*.pyc,*.db,*.git
 set hlsearch
+set shiftwidth=4
 
 colorscheme wombat
 syntax on
