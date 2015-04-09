@@ -2,5 +2,5 @@
 	path = vim/bundle/plugin-nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/plugin-command-t"]
-	path = vim/bundle/plugin-nerdtree-command-t
+	path = vim/bundle/plugin-command-t
 	url = git://github.com/wincent/Command-T.git
